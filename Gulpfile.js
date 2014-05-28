@@ -1,12 +1,15 @@
-var gulp = require('gulp'),
-    source = require('vinyl-source-stream');
+var gulp      = require('gulp'),
+    streamify = require('gulp-streamify'),
+    source    = require('vinyl-source-stream');
 
 gulp.task('js', function () {
-    var browserify = require('browserify');
+    var browserify = require('browserify'),
+        uglify     = require('gulp-uglify');
 
     return browserify('./js/app.js')
         .bundle()
         .pipe(source('bundle.js'))
+        .pipe(streamify(uglify()))
         .pipe(gulp.dest('./dist'));
 });
 
