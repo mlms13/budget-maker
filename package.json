@@ -1,0 +1,11 @@
+{
+  "name": "budget-maker",
+  "version": "0.0.0",
+  "description": "Simple web-based personal finance",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Martin-Smucker",
+  "license": "MIT"
+}
