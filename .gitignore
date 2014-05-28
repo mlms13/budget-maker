@@ -1,3 +1,7 @@
+# Compiled application
+*.css
+dist
+
 # Logs
 logs
 *.log

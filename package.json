@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Martin-Smucker",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^4.1.6",
+    "gulp": "^3.6.2",
+    "gulp-uglify": "^0.3.0",
+    "vinyl-source-stream": "^0.1.1"
+  }
 }
