@@ -11,7 +11,10 @@
   "devDependencies": {
     "browserify": "^4.1.6",
     "gulp": "^3.6.2",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-minify-css": "^0.3.4",
     "gulp-streamify": "0.0.5",
+    "gulp-stylus": "^1.0.1",
     "gulp-uglify": "^0.3.0",
     "jade": "^1.3.1",
     "jadeify": "^2.3.0",
