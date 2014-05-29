@@ -7,6 +7,7 @@ gulp.task('js', function () {
         uglify     = require('gulp-uglify');
 
     return browserify('./js/app.js')
+        .transform('jadeify')
         .bundle()
         .pipe(source('bundle.js'))
         .pipe(streamify(uglify()))
